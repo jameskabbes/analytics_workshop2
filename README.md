@@ -93,10 +93,10 @@ In many physics problems such as this example, the only way to solve the problem
 - The ball's mass is 0.6 kg
 - Assume the value of k is in between 0 and 1
 
-Round your answer to the nearest hundreth place, and then multiply your answer by 100.
+**Round your answer to the nearest hundreth place, and then multiply your answer by 100.**
 
 Example:
 
-- 0.357, round to 0.360, multiply by 100 to get 36, **submit 36**
-- 0.084, round to 0.080, multiply by 100 to get 8, **submit 8**
-- 0.679, round to 0.680, multiple by 100 to get 68, **submit 68**
+- k = 0.357, round to 0.360, multiply by 100 to get 36, **submit 36**
+- k = 0.084, round to 0.080, multiply by 100 to get 8, **submit 8**
+- k = 0.679, round to 0.680, multiple by 100 to get 68, **submit 68**
