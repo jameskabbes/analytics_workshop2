@@ -2,5 +2,6 @@ answers.csv
 solutions/
 utils/
 __pycache__/
-submission_pins.txt
+submission_pins.csv
 .DS_Store
+graphic_design/
