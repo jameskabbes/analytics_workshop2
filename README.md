@@ -12,16 +12,16 @@ Welcome to John Deere's Programming and Analytics Workshop!
 
 # Overview
 
-Answer the questions below using the provided code, data, and any online resources, including **AI tools**.
+Answer the questions below using the provided code, data, and any online resources, including **AI tools**. Each team is permitted two hints from John Deere employees.
 
 # Scoring
 
-Submit your answers `here`. **All answers will be a positive integer.** A winner will be chosen by the following criteria:
+Submit your answers [here](https://forms.gle/NUUszwC9kQmBt3QH6). **All answers will be a positive integer.** A winner will be chosen by the following criteria, ranked in order of importance:
 
 1. Most correct answers
 2. Fastest submission
 
-You must use your **submission pin** when submitting your team's answers. Each team can submit as many times as they wish, only the most recent submission will be used.
+You must use your **submission pin** when submitting your team's answers. Each team can submit as many times as they wish, **only the most recent submission will be used**.
 
 # Questions
 
@@ -75,7 +75,7 @@ Round your answer to the nearest integer.
 
 data: `time_series.csv`
 
-## 8. St. Louis Cardinals Home runs
+## 8. St. Louis Cardinals Home Runs
 
 Considering the 2000 (inclusive) - 2010 (inclusive) Major League Baseball seasons, find the total number of home runs (column `HR`) hit by the St. Louis Cardinals.
 
@@ -135,7 +135,7 @@ The free body diagram for this example looks like this:
   />
 </p>
 
-In many physics problems such as this example, the only way to solve the problem is to perform a computer simulation. **Solve for the unitless value `k`, given the following**:
+In many physics problems such as this example, the only way to solve the problem is to perform a simulation with very small time steps. **Solve for the value `k`, given the following**:
 
 - The ball is dropped from a height of `50 meters`
 - The gravitational constant `g` = `9.81 m/(s^2)`
