@@ -2,3 +2,5 @@ answers.csv
 solutions/
 utils/
 __pycache__/
+submission_pins.txt
+.DS_Store

@@ -1,5 +1,28 @@
 # Analytics Workshop
 
+<p align="center">
+  <img
+    src="./static/logo horizontal.png"
+    alt="John Deere Logo"
+    width="500"
+  />
+</p>
+
+Welcome to John Deere's Programming and Analytics Workshop!
+
+# Overview
+
+Answer the questions below using the provided code, data, and any online resources, including **AI tools**.
+
+# Scoring
+
+Submit your answers `here`. **All answers will be a positive integer.** A winner will be chosen by the following criteria:
+
+1. Most correct answers
+2. Fastest submission
+
+You must use your **submission pin** when submitting your team's answers. Each team can submit as many times as they wish, only the most recent submission will be used.
+
 # Questions
 
 ## 1. 500,000th prime number
