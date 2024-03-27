@@ -12,7 +12,7 @@ _An efficient algorithm can solve this question within 10-15 seconds._
 
 In the movie Shrek 2, how many times does Shrek say Donkey's name?
 
-Speaking lines in transcripts are signified by a character's name followed by a colon. For example, the line `Shrek: You're bothering me.` means the character `Shrek` said `You're bothering me.`
+Speaking lines in transcripts are signified by a line starting with a character's name followed by a colon. For example, the line `Shrek: You're bothering me.` means the character `Shrek` said `You're bothering me.`
 
 data: `shrek2.txt`
 
@@ -24,7 +24,7 @@ data: `hidden_number.csv`
 
 ## 4. Cardinals and Cubs
 
-Considering the 2000-2010 Major League Baseball seasons, find the difference in the average number of games won (column `W`) each season by the St. Louis Cardinals and Chicago Cubs.
+Considering the 2000 (inclusive) - 2010 (inclusive) Major League Baseball seasons, find the difference in the average number of games won (column `W`) each season by the St. Louis Cardinals and Chicago Cubs.
 
 Round your answer to the nearest integer.
 
@@ -51,6 +51,34 @@ Find the sum of all `value` entries where the `datetime` entry occured on a week
 Round your answer to the nearest integer.
 
 data: `time_series.csv`
+
+## 8. St. Louis Cardinals Home runs
+
+Considering the 2000 (inclusive) - 2010 (inclusive) Major League Baseball seasons, find the total number of home runs (column `HR`) hit by the St. Louis Cardinals.
+
+data: `mlb_teams.csv`
+
+## 9. Ceasar Cipher | Shrek 2
+
+The Caesar cipher is one of the simplest and earliest known substitution ciphers, named after Julius Caesar, who is believed to have used it to communicate secretly with his generals. It is a type of substitution cipher where each letter in the plaintext is shifted a certain number of places down or up the alphabet.
+
+Here's how it works:
+
+- **Key**: The key for the Caesar cipher is an integer from 1 to 25, denoting the number of positions each letter in the plaintext is shifted.
+- **Encryption**: To encrypt a message, each letter in the plaintext is shifted forward in the alphabet by the key value. For example, with a key of 3, 'A' would be replaced by 'D', 'B' would become 'E', and so on. When reaching the end of the alphabet, the letters wrap around, so 'Z' becomes 'C'. Non-alphabetic characters (such as spaces and punctuation) are left unchanged.
+- **Example**: With a key of 3, the plaintext "HELLO" would be encrypted as "KHOOR".
+
+<p align="center">
+  <img
+    src="./static/caesar cipher.png"
+    alt="Caesar Cipher"
+    width="300"
+  />
+</p>
+
+Encrypt the transcript of Shrek 2 using the Caesar Cipher and a key of `12`. How many times does the series of characters `bduzoq otmdyuzs` (case insensitive) appear in the encrypted transcript?
+
+data: `shrek2.txt`
 
 ## 10. Simulating Coefficient of Friction
 
